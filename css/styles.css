@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama&display=swap");
+
+@import "./reset.css";
+
+/* screens */
+@import "./screens/home.css";
+@import "./screens/drumkit.css";
+
+html {
+  font-family: "Georama", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}

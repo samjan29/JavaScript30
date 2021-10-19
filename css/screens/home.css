@@ -1,0 +1,21 @@
+.home_nav_background {
+  padding: 20vh 30vw;
+}
+.home_nav_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4em;
+}
+.home_nav_list li {
+  width: 45px;
+  height: 45px;
+  background-color: tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_nav_btn {
+  font-size: 35px;
+}
