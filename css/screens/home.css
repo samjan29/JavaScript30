@@ -1,13 +1,13 @@
-.home_nav_background {
+.home--background {
   padding: 20vh 30vw;
 }
-.home_nav_list {
+.home__nav__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 4em;
+  gap: 60px;
 }
-.home_nav_list li {
+.home__nav__btn {
   width: 45px;
   height: 45px;
   background-color: tomato;
@@ -17,14 +17,12 @@
   align-items: center;
   color: white;
   transition: all 0.1s ease-in-out;
+  font-size: 35px;
 }
-.home_nav_list li:hover {
+.home__nav__btn:hover {
   background-color: white;
   color: tomato;
 }
-.home_nav_list li:active {
+.home__nav__btn:active {
   transform: scale(1.5);
-}
-.home_nav_btn {
-  font-size: 35px;
 }
