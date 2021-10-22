@@ -2,12 +2,17 @@
 
 @import "./reset.css";
 
+/* components */
+@import "./components/home-key.css";
+
 /* screens */
 @import "./screens/home.css";
-@import "./screens/drumkit.css";
+@import "./screens/drum-kit.css";
+@import "./screens/classic-clock.css";
 
-html {
+body {
   font-family: "Georama", sans-serif;
   height: 100vh;
   width: 100vw;
+  position: relative;
 }

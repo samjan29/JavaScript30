@@ -1,0 +1,17 @@
+.home-key {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 20px;
+  left: 20px;
+  transition: all ease-in-out 0.1s;
+}
+.drum-kit--background .home-key:hover {
+  color: rgb(10, 7, 58);
+}
+.classic-clock--background .home-key:hover {
+  color: #d37976;
+}
+.home-key:active {
+  transform: scale(1.3);
+}
