@@ -2,13 +2,13 @@
   padding: 20vh 30vw;
   background-color: rgb(245, 234, 218);
 }
-.home__nav__list {
+.home-nav .nav__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 60px;
 }
-.home__nav__btn {
+.home-nav .nav__btn {
   width: 45px;
   height: 45px;
   background-color: tomato;
@@ -20,10 +20,10 @@
   transition: all 0.1s ease-in-out;
   font-size: 35px;
 }
-.home__nav__btn:hover {
+.home-nav .nav__btn:hover {
   background-color: white;
   color: tomato;
 }
-.home__nav__btn:active {
+.home-nav .nav__btn:active {
   transform: scale(1.5);
 }

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Georama&display=swap");
 
 @import "./reset.css";
+@import "./variables.css";
 
 /* components */
 @import "./components/home-key.css";
@@ -9,6 +10,7 @@
 @import "./screens/home.css";
 @import "./screens/drum-kit.css";
 @import "./screens/classic-clock.css";
+@import "./screens/css-variables.css";
 
 body {
   font-family: "Georama", sans-serif;

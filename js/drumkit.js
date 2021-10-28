@@ -1,4 +1,4 @@
-const drumKeys = Array.from(document.querySelectorAll(".drumKey"));
+const drumKeys = Array.from(document.querySelectorAll(".key"));
 
 const removePlaying = function (event) {
   if (event.propertyName !== "transform") return;
@@ -6,9 +6,9 @@ const removePlaying = function (event) {
 };
 
 const drumPlay = function (event) {
-  const key = document.querySelector(`.drumKey[data-key="${event.keyCode}"]`);
+  const key = document.querySelector(`.key[data-key="${event.keyCode}"]`);
   const audio = document.querySelector(
-    `.drumSound[data-key="${event.keyCode}"]`
+    `.drum-sound[data-key="${event.keyCode}"]`
   );
   if (!audio) return;
   key.classList.add("playing");

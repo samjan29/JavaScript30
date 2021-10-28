@@ -1,0 +1,27 @@
+.css-variables--background {
+  background-color: rgb(20, 42, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.css-variables--background h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.css-var-controls {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.css-variables--background img {
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  background-color: var(--base);
+  height: 600px;
+  width: 1000px;
+}
+.css-var__h1 {
+  color: var(--base);
+  font-weight: bold;
+}
