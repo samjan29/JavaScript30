@@ -11,6 +11,7 @@
 @import "./screens/drum-kit.css";
 @import "./screens/classic-clock.css";
 @import "./screens/css-variables.css";
+@import "./screens/flex-panels.css";
 
 body {
   font-family: "Georama", sans-serif;
